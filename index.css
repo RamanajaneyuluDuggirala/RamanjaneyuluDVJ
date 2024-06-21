@@ -1,0 +1,23 @@
+
+
+.formConatainer{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: space-between;
+    border: 2px solid blue;
+}
+
+.inputdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    flex-wrap: wrap;
+    font-family: cursive;
+    margin: 5px;
+}
+
+input{
+    align-self: flex-start;
+}
+
