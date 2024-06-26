@@ -1,0 +1,13 @@
+
+.main{
+    display: flex;
+    gap: 4em; /* responsive */
+}
+
+.flexitem{
+    padding: 10px;
+    background-color: blueviolet;
+    border: 1px solid blue;
+    max-height: 80% ; /*maximum is 80%, it can shrink */
+    max-width: 50%; /*maximum is 50%, it can shrink */
+}
